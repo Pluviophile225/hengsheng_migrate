@@ -76,7 +76,8 @@ map.Add(input_func, output_func);
 function test_func = GetFuncitonInfo(test);
 
 if (test_func == input_func) {
-    Console.WriteLine("456");
+    //测试
+    Console.WriteLine("456789");
 }
 
 if (map.ContainsKey(test_func)) {
